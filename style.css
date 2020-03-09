@@ -512,3 +512,39 @@ nav ul li a:hover {
 }
 
 /* End Post Section */
+
+/* Start Footer Section */
+footer {
+  background-color: #191716;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-text {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #e0e2db;
+  margin-bottom: 10px;
+}
+
+.footer-icons {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.footer-icons .fa {
+  margin-right: 10px;
+  color: #e0e2db;
+  transition: transform 2s;
+  text-decoration: none;
+}
+
+.footer-icons .fa:hover {
+  color: #e6af2e;
+  transform: translateY(-15px);
+}
+
+/* End Footer Section */
